@@ -20,10 +20,10 @@ export const defaultEnv = {
   },
   CLIENT_DEFAULT_MESSAGE: `
 - 用户量太大可能卡顿，如需更好的体验,👉[点这里获得独立账号 KEY 使用](https://sourl.cn/38eM4A)
+- 支持多个对话，打开对话设置，点击新建对话。在输入框里输入 [[/]][[/]] 或者 [[空格]][[空格]] 可以切换对话，搜索历史消息。
 - 基于 [OpenAI(gpt-3.5-turbo)](https://platform.openai.com/docs/guides/chat) 部署,提问前按下 [[空格]] 选择人物预设。出现 [[error]] 请点右下角清空对话。
 - 用户交流群，欢迎来聊聊👉[QQ频道：Aivesa](https://sourl.cn/qpDRVf) 👉[TG群组](https://t.me/+gJ-GQFE1GN40NGJl) 
-- 用 iPhone 试试这个👉[iOS 召唤 智能Siri Pro](https://github.com/ClarenceDan/chatGPT-Siri-Pro)
-- 支持多个对话，打开对话设置，点击新建对话。在输入框里输入 [[/]][[/]] 或者 [[空格]][[空格]] 可以切换对话，搜索历史消息。
+- 用 iPhone 试试这个👉[iOS 召唤 智能Siri Pro](https://github.com/ClarenceDan/chatGPT-Siri-Pro
 `,
   CLIENT_MAX_INPUT_TOKENS: {
     "gpt-3.5-turbo": 4 * 1024,
