@@ -43,9 +43,9 @@ export default function Header() {
       >
         <Show
           when={iconTitle().icon}
-          fallback={<div class="w-8em h-8em" innerHTML={logo} />}
+          fallback={<div class="w-3em h-3em" innerHTML={logo} />}
         >
-          <div class="text-7em h-1em mb-8">{iconTitle().icon}</div>
+          <div class="text-5em h-1em mb-8">{iconTitle().icon}</div>
         </Show>
       </div>
       <header class="px-4 py-2 sticky top-0 z-99 flex justify-between items-center">
@@ -59,30 +59,9 @@ export default function Header() {
             when={iconTitle().title}
             fallback={
               <>
-                <span class="text-transparent font-extrabold bg-clip-text bg-gradient-to-r dark:from-yellow-300 from-yellow-600 dark:to-red-700 to-red-700 mr-1">
-                  ChatGPT
-                </span>
-                <span class="ml-1 font-extrabold text-slate-7 dark:text-slate">
-                  Vercel
-                </span>
-                <a
-                  class="ml-2 <sm:hidden"
-                  href="https://github.com/ourongxing/chatgpt-vercel"
-                >
-                  <img
-                    alt="GitHub forks badge"
-                    src="https://img.shields.io/github/stars/ourongxing/chatgpt-vercel?logo=github"
-                  />
-                </a>
-                <a
-                  class="ml-2"
-                  href="https://github.com/ourongxing/chatgpt-vercel/fork"
-                >
-                  <img
-                    alt="GitHub forks badge"
-                    src="https://img.shields.io/github/forks/ourongxing/chatgpt-vercel?logo=github"
-                  />
-                </a>
+              <span class="text-transparent font-extrabold bg-clip-text bg-gradient-to-r from-sky-400 to-emerald-600 mr-1 text-1.5xl">
+                AskOpenAI 智问
+              </span>
               </>
             }
           >
@@ -92,6 +71,7 @@ export default function Header() {
           </Show>
         </div>
         <ThemeToggle />
+        <script async src="https://umami.appbox.fun/script.js" data-website-id="57b9f6fc-8a57-47a8-bf68-c2ba770178f2"></script>
       </header>
     </>
   )
