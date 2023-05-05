@@ -41,6 +41,7 @@ export default function Root() {
           ""
         )}
         <Meta name="theme-color" content="#f6f8fa" />
+        <script async src="https://umami.appbox.fun/script.js" data-website-id="57b9f6fc-8a57-47a8-bf68-c2ba770178f2"></script>
       </Head>
       <Body>
         <Suspense>
