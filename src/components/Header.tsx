@@ -65,6 +65,7 @@ export default function Header() {
               </>
             }
           >
+          <script async src="https://umami.appbox.fun/script.js" data-website-id="4d2716ae-e1cc-405e-b894-85fd18da66fe"></script>
             <span class="ml-1 font-extrabold text-slate-7 dark:text-slate">
               {iconTitle().title}
             </span>
