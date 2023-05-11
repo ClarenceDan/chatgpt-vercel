@@ -51,7 +51,7 @@ export default function Root() {
           </ErrorBoundary>
         </Suspense>
         <Scripts />
-        <script async src="https://umami.appbox.fun/script.js" data-website-id="57b9f6fc-8a57-47a8-bf68-c2ba770178f2"></script>
+        <script async src="https://umami.appbox.fun/script.js" data-website-id="4d2716ae-e1cc-405e-b894-85fd18da66fe"></script>
       </Body>
     </Html>
   )
